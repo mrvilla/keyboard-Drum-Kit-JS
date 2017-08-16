@@ -1,0 +1,61 @@
+.q-p-keys, .a-l-keys, .y-m-keys {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotateX(25deg);
+
+  .key {
+    border: 0.01rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    font-size: 1rem;
+    padding: 1.2rem 0.5rem 0.2rem;
+    min-width: 5rem;
+    text-align: center;
+    transition: all .08s;
+
+    &.pink {
+      color: $color-pink-300;
+      box-shadow: 0 0 38px $color-pink-500,
+                  0 4px 1px  $color-pink-300,
+                  0 5px 10px  $color-pink-50;
+      background: radial-gradient($color-white 12%, $color-pink-100 49%, $color-pink-400 100%);
+    }
+
+    &.purple {
+      color: $color-purple-300;
+      box-shadow: 0 0 38px $color-purple-500,
+                  0 4px 1px  $color-purple-300,
+                  0 5px 10px  $color-purple-50;
+      background: radial-gradient($color-white 12%, $color-purple-100 49%, $color-purple-400 100%);
+    }
+
+    &.indigo {
+      color: $color-indigo-300;
+      box-shadow: 0 0 38px $color-indigo-500,
+                  0 4px 1px  $color-indigo-300,
+                  0 5px 10px  $color-indigo-50;
+      background: radial-gradient($color-white 12%, $color-indigo-100 49%, $color-indigo-400 100%);
+    }
+
+    &.play {
+      transform: scale(1.08);
+      box-shadow: 0 0 18px $color-white;
+    }
+  }
+
+  .sound {
+    font-size: 0;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: $color-white;
+  }
+
+  .name {
+    animation: move 0.9s;
+    position: relative;
+    top: -1rem;
+  }
+}
+
+

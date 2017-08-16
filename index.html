@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS keyboard Drum Kit</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="q-p-keys">
+    <div data-key="81" class="key purple">
+        <kbd class="kbd">Q</kbd>
+        <span class="sound">chords</span>
+    </div>
+    <div data-key="87" class="key purple">
+        <kbd class="kbd">W</kbd>
+        <span class="sound">synth</span>
+    </div>
+    <div data-key="69" class="key purple">
+        <kbd class="kbd">E</kbd>
+        <span class="sound">chuckl</span>
+    </div>
+    <div data-key="82" class="key purple">
+        <kbd class="kbd">R</kbd>
+        <span class="sound">hash</span>
+    </div>
+    <div data-key="84" class="key purple">
+        <kbd class="kbd">T</kbd>
+        <span class="sound">chord</span>
+    </div>
+    <div data-key="90" class="key purple">
+        <kbd class="kbd">Z</kbd>
+        <span class="sound">gliss</span>
+    </div>
+    <div data-key="85" class="key purple">
+        <kbd class="kbd">U</kbd>
+        <span class="sound">willo</span>
+    </div>
+    <div data-key="73" class="key purple">
+        <kbd class="kbd">I</kbd>
+        <span class="sound">major</span>
+    </div>
+    <div data-key="79" class="key purple">
+        <kbd class="kbd">O</kbd>
+        <span class="sound">future</span>
+    </div>
+    <div data-key="80" class="key purple">
+        <kbd class="kbd">P</kbd>
+        <span class="sound">sweep</span>
+    </div>
+</div>
+
+
+<div class="a-l-keys">
+    <div data-key="65" class="key pink">
+        <kbd class="kbd">A</kbd>
+        <span class="sound">bass</span>
+    </div>
+    <div data-key="83" class="key pink">
+        <kbd class="kbd">S</kbd>
+        <span class="sound">drom</span>
+    </div>
+    <div data-key="68" class="key pink">
+        <kbd class="kbd">D</kbd>
+        <span class="sound">drum</span>
+    </div>
+    <div data-key="70" class="pink key">
+        <kbd class="kbd">F</kbd>
+        <span class="sound">hihat</span>
+    </div>
+    <div data-key="71" class="pink key">
+        <kbd class="kbd">G</kbd>
+        <span class="sound">kick</span>
+    </div>
+    <div data-key="72" class="pink key">
+        <kbd class="kbd">H</kbd>
+        <span class="sound">808</span>
+    </div>
+    <div data-key="74" class="pink key">
+        <kbd class="kbd">J</kbd>
+        <span class="sound">stick</span>
+    </div>
+    <div data-key="75" class="pink key">
+        <kbd class="kbd">K</kbd>
+        <span class="sound">timbal</span>
+    </div>
+    <div data-key="76" class="pink key">
+        <kbd class="kbd">L</kbd>
+        <span class="sound">hat</span>
+    </div>
+</div>
+
+<div class="y-m-keys">
+    <div data-key="89" class="key indigo">
+        <kbd class="kbd">Y</kbd>
+        <span class="sound">fx</span>
+    </div>
+    <div data-key="88" class="key indigo">
+        <kbd class="kbd">X</kbd>
+        <span class="sound">glitch</span>
+    </div>
+    <div data-key="67" class="key indigo">
+        <kbd class="kbd">C</kbd>
+        <span class="sound">bounce</span>
+    </div>
+    <div data-key="86" class="key indigo">
+        <kbd class="kbd">V</kbd>
+        <span class="sound">crackl</span>
+    </div>
+    <div data-key="66" class="key indigo">
+        <kbd class="kbd">B</kbd>
+        <span class="sound">siren</span>
+    </div>
+    <div data-key="78" class="key indigo">
+        <kbd class="kbd">N</kbd>
+        <span class="sound">misc</span>
+    </div>
+    <div data-key="77" class="key indigo">
+        <kbd class="kbd">M</kbd>
+        <span class="sound">vocal</span>
+    </div>
+</div>
+
+h4
+
+<audio data-key="81" src="sounds_2/69_Chords&Stabs.mp3"></audio>
+<audio data-key="87" src="sounds_2/77_C7_Synth.mp3"></audio>
+<audio data-key="69" src="sounds_2/A_FairyChuckle.mp3"></audio>
+<audio data-key="82" src="sounds_2/A_Hashtags.mp3"></audio>
+<audio data-key="84" src="sounds_2/Bbm_SynthChord.mp3"></audio>
+<audio data-key="90" src="sounds_2/Dm7_PrettyGliss.mp3"></audio>
+<audio data-key="85" src="sounds_2/E_Willow.mp3"></audio>
+<audio data-key="73" src="sounds_2/EDM_B2_Major.mp3"></audio>
+<audio data-key="79" src="sounds_2/futureBass_SynthChord.mp3"></audio>
+<audio data-key="80" src="sounds_2/NinthSweep.mp3"></audio>
+
+<audio data-key="65" src="sounds/bass808.mp3"></audio>
+<audio data-key="83" src="sounds/C_BartonFMDrom.mp3"></audio>
+<audio data-key="68" src="sounds/FrameDrum_Normal.mp3"></audio>
+<audio data-key="70" src="sounds/HiHat.mp3"></audio>
+<audio data-key="71" src="sounds/SlapKick.mp3"></audio>
+<audio data-key="72" src="sounds/T-Rex808.mp3"></audio>
+<audio data-key="74" src="sounds/TapStick.mp3"></audio>
+<audio data-key="75" src="sounds/TimbaleHigh_Roll.mp3"></audio>
+<audio data-key="76" src="sounds/TrapHat.mp3"></audio>
+
+<audio data-key="89" src="sounds_3/22_FX_16.mp3"></audio>
+<audio data-key="88" src="sounds_3/B_Glitch.mp3"></audio>
+<audio data-key="67" src="sounds_3/Bounce_SP.mp3"></audio>
+<audio data-key="86" src="sounds_3/Crackle.mp3"></audio>
+<audio data-key="66" src="sounds_3/DubSiren.mp3"></audio>
+<audio data-key="78" src="sounds_3/Misc_009.mp3"></audio>
+<audio data-key="77" src="sounds_3/Vocal_SP.mp3"></audio>
+
+<script type="text/javascript" src="js/script-compiled.js"></script>
+
+
+</body>
+</html>

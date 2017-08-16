@@ -1,0 +1,66 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  background: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  perspective: 1800px; }
+
+.kbd {
+  font-family: 'Verdana', sans-serif;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem; }
+
+.q-p-keys, .a-l-keys, .y-m-keys {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotateX(25deg); }
+  .q-p-keys .key, .a-l-keys .key, .y-m-keys .key {
+    border: 0.01rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    font-size: 1rem;
+    padding: 1.2rem 0.5rem 0.2rem;
+    min-width: 5rem;
+    text-align: center;
+    transition: all .08s; }
+    .q-p-keys .key.pink, .a-l-keys .key.pink, .y-m-keys .key.pink {
+      color: #f06292;
+      box-shadow: 0 0 38px #e91e63, 0 4px 1px #f06292, 0 5px 10px #fce4ec;
+      background: radial-gradient(#ffffff 12%, #f8bbd0 49%, #ec407a 100%); }
+    .q-p-keys .key.purple, .a-l-keys .key.purple, .y-m-keys .key.purple {
+      color: #ba68c8;
+      box-shadow: 0 0 38px #9c27b0, 0 4px 1px #ba68c8, 0 5px 10px #f3e5f5;
+      background: radial-gradient(#ffffff 12%, #e1bee7 49%, #ab47bc 100%); }
+    .q-p-keys .key.indigo, .a-l-keys .key.indigo, .y-m-keys .key.indigo {
+      color: #7986cb;
+      box-shadow: 0 0 38px #3f51b5, 0 4px 1px #7986cb, 0 5px 10px #e8eaf6;
+      background: radial-gradient(#ffffff 12%, #c5cae9 49%, #5c6bc0 100%); }
+    .q-p-keys .key.play, .a-l-keys .key.play, .y-m-keys .key.play {
+      transform: scale(1.08);
+      box-shadow: 0 0 18px #ffffff; }
+  .q-p-keys .sound, .a-l-keys .sound, .y-m-keys .sound {
+    font-size: 0;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffffff; }
+  .q-p-keys .name, .a-l-keys .name, .y-m-keys .name {
+    animation: move 0.9s;
+    position: relative;
+    top: -1rem; }
+
+@keyframes move {
+  from {
+    font-size: 0.1rem;
+    top: -1rem; }
+  to {
+    font-size: 1rem;
+    top: -5rem; } }
+
+/*# sourceMappingURL=styles.css.map */
